@@ -1,0 +1,120 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{article}
+\usepackage{fancyhdr}
+\usepackage{pslatex}
+\usepackage{epsfig}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{textgreek}
+\usepackage{setspace}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[hidelinks]{hyperref}%renewcommand{\topfraction}{1.0}
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\textfraction}{0.0}
+\setlength {\textwidth}{6.6in}
+\hoffset=-1.0in
+\oddsidemargin=1.00in
+\marginparsep=0.0in
+\marginparwidth=0.0in                                                                               
+\setlength {\textheight}{9.0in}
+\voffset=-1.00in
+\topmargin=1.0in
+\headheight=0.0in
+\headsep=0.00in
+\footskip=0.50in                                         
+\setcounter{page}{1}
+\onehalfspacing
+\begin{document}
+\def\pos{\medskip\quad}
+\def\subpos{\smallskip \qquad}
+\newfont{\nice}{cmr12 scaled 1250}
+\newfont{\name}{cmr12 scaled 1080}
+\newfont{\swell}{cmbx12 scaled 800}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+{\Large
+PHYS 20323/60323: Fall 2025 - LaTeX Example
+}\\
+\end{center}
+
+\noindent\begin{enumerate}
+\item At time t = 0 a particle is represented by the wave function 
+
+    
+\begin{equation}
+\Psi(x)=\begin{cases}
+        A\frac{x}{a}, & 0\leq x \leq a \\
+        A\frac{(b-x)}{(b-a)}, & a\leq x \leq b \\
+        0, & otherwise \\
+\end{cases}
+\end{equation}
+where $A$, $a$, and $b$ are constants. 
+\begin{enumerate}
+\item (3.3 points) Normalize $\Psi$\ (i.e., Find $A$ in terms of $a$ and $b$).
+\item (3.3 points) Where is the particle likely to be found at $t$ = 0?.
+\item (3.4 points) What is the expectation value of x?. 
+\end{enumerate}
+{\item\space\bf The following questions refer to stars in the table bellow} \\
+$Note$: $there$ $may$ $be$ $multiple$ $answers$. \\
+\begin{tabular}{|c|c|c|c|c|c|c|c|}\hline
+Name   &  Mass  &  Luminosity  & Lifetime & temperature & Radius & Variable? \\\hline
+$\delta$ Scu.   & 2.0 $M_{\odot}$  &  & $5.0\times10^8$ years &  &  2.0 $R_{\odot}$ & Y \\\hline
+$\gamma$ Del.   & 0.7 $M_{\odot}$ &   & $4.5\times$10$^{10}$ years & 5000 K & & N  \\\hline
+$\beta$ Cyg. & 1.3 $M_{\odot}$ & 3.5 $L_{\odot}$ & & & & Y \\\hline
+$\eta$ Car. & 60. $M_{\odot}$ & 10$^6$ $L_{\odot}$ & $8.0\times10^5$ years & & & Y \\\hline
+$\epsilon$ Eri. & 6.0 $M_{\odot}$ & 10$^3$ $L_{\odot}$ & & 20,000 K & & N \\\hline
+$\alpha$ Cen. & 1.0 $M_{\odot}$ & & & 6000 K & 1.0 $R_{\odot}$ & N \\\hline
+\end{tabular}
+\vskip0.15in
+
+
+\begin{enumerate}
+\item (4 points) Which of these stars will produce a planetary nebula. 
+\item (4 points) Elements heavier than \texttt{Carbon} will be produced in which stars.
+\end{enumerate}
+\vskip0.15in
+
+\item \space An electron is found in the spin state (in the $z$-basis):
+$\chi=  A\space\left(\begin{array}{cc}
+     3i  \\
+     4 
+\end{array}
+\right)$
+\vskip0.15in
+\begin{enumerate}
+\item  (5 points) Determine the possible values of A such that the state is normalized.
+\item (5 points) Find the expectation values of the operators \textcolor{red}{$S_x$}, \textcolor{purple}{$S_y$}, \textcolor{orange}{$S_z$} and $\vec{S}^2$.
+\end{enumerate}
+\indent The matrix representations in the $z$-basis for the components for the electron spin operators are given by: \\\vskip0.1in
+\textcolor{red}{$S_x = \frac{\hbar}{2} \left(\begin{array}{cc}
+     0 & 1  \\
+     1 & 0 
+\end{array}
+\right)}$
+\textcolor{purple}{;}
+$\phantom{3844}$\textcolor{purple}{$S_y = \frac{\hbar}{2} \left(\begin{array}{cc}
+     0 & -i  \\
+     i & 0 
+\end{array}
+\right)}$}
+\textcolor{orange}{;
+$\phantom{3844}$ $S_y = \frac{\hbar}{2} \left(\begin{array}{cc}
+     0 & -i  \\
+     i & 0 
+\end{array}
+\right)}$
+\end{enumerate}
+\end{document}
